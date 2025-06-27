@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-image: url(https://findes.com.br/wp-content/uploads/2024/10/No-Senaii_-Foto-Renan-Donato-Findes-1024x683.png);
+  padding: 0;
+  margin: 0;
+  background-color: floralwhite;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(25, 95, 160);
+  color: white;
+  font-size: 14px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+  height: auto;
+}
+
+header img {
+  display: flex;
+  height: 50px;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  color: floralwhite;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button {
+  background-color:  rgb(231, 90, 8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.27s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding-top: 2px;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  bottom: 0%;
+}
+
+.container a {
+  display: flex;
+  justify-content: left;
+  color:#f1f1f1;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
