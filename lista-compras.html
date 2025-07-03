@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Compras</title>
     <link rel="stylesheet" href="CSS/lista-compras.css">
+    <script src="https://kit.fontawesome.com/ea9c03fa16.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,17 @@
     <section class="main">
     <h1>Lista de Compras 🛒</h1>
     <div class="buttons">
-    <button onclick="comprar()">Adicionar Itens</button>
-    <button onclick="atualizarLista()">Ver Lista</button>
-    <button onclick="limparLista()">Limpar Listas</button>
+    <button onclick="comprar()">
+        <i class="fa-solid fa-plus"></i>Adicionar Itens
+    </button>
+    <button onclick="atualizarLista()">
+        <i class="fa-solid fa-eye"></i>
+        Ver Lista
+    </button>
+    <button onclick="limparLista()">
+        <i class="fa-solid fa-trash"></i>
+        Limpar Listas
+    </button>
     </div>
     <ul id="listaCompras"></ul>
     <br>  

@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: "Noto Serif", serif;
+    background-image: url(https://64.media.tumblr.com/85e28b2c1364a2084bd7a6727add810a/bf7dea713bb52297-ac/s1280x1920/0f03a27d7d10f150b8abba46376358eb72e1bd89.gif);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.menu {
+    background-color: #242424;
+    display:flex;
+    width: 700px;
+    height: 40px;
+    justify-content: center;
+    position: fixed;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 0px 20px;
+}
+
+.menu-item a{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+.menu-item a:hover {
+    color:aquamarine;
+}
+.menu-item i {
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    font-size: 0.95em;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.column-center {
+    display: flex;
+    margin-top: 100px;
+    width: 2000px;
+    height: auto;
+    margin: 100px 20px 0px 20px;
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+
+.other {
+    color:  floralwhite;
+    background-color: #242424;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+}
+.other:hover {
+    transform: translateY(-10px);
+    background-color:floralwhite;
+    color:#121212;
+}
+
+.other h2 {
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+.other p {
+    justify-content: center;
+    display: block;
+    width: auto;
+    height: auto;
+
+}
+.other ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.other li {
+    background-color: #1F1F1F;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: floralwhite;
+    
+}
+
+.other iframe {
+    display: block;
+    width: 100%;
+    
+}
+.column h2 {
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: floralwhite;
+}
+
+.other img {
+    width: 150px;
+    height: 230px;
+    border: 2px solid floralwhite;
+    border-radius: 20px;
+}
+
+.text {
+     padding-left: 20px; 
+    
+}
