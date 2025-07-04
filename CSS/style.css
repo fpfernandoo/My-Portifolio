@@ -20,13 +20,14 @@ body {
     color: floralwhite;
     border-radius: 20px;
     width: 600px;
-    padding: 20px;
+    margin: 0px 10px 0px 10px;
 }
 
 .projects-list {
     display: flex;
     justify-content: center;
     gap: 15px;
+
 }
 .projects button {
     width: 200px;
