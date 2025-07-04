@@ -64,7 +64,7 @@ header {
 .column-center {
     display: flex;
     margin-top: 100px;
-    width: 1185px; 
+    width: auto; 
     height: auto;
     margin: 100px auto 0px auto;
     background-color: #1F1F1F;
@@ -189,6 +189,8 @@ header {
     flex-direction: column;
     color: floralwhite;
     text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .other-artist {
     color:  floralwhite;
@@ -242,7 +244,6 @@ header {
 }
 
 .column-right {
-    
     margin-left: 20px;
     margin-top: 100px;
     height: auto;
@@ -252,8 +253,7 @@ header {
     flex-direction: column;
     color: floralwhite;
     text-align: center;
-    display: grid; /* Transforma o contêiner em uma grade */
-  /* Define 2 colunas de tamanho igual (1fr significa 1 fração do espaço disponível) */
+    display: flex;
   grid-template-columns: repeat(2, 1fr)
 }
 
@@ -276,4 +276,35 @@ header {
 .playlist:hover {
     transform: translateY(-10px);
     border-color: floralwhite;
+}
+
+.other-music iframe {
+    display: flex;
+    width: 100%;
+    
+}
+
+.other-music {
+    color: floralwhite;
+    background-color: #242424;
+    padding: 20px;
+    margin: 20px; 
+    width: 500px; 
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid transparent;  
+}
+
+.other-music:hover {
+    transform: translateY(-10px);
+    border-color: floralwhite;
+}
+
+.column-left iframe {
+    width: auto;
 }
