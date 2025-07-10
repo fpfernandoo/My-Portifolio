@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    background-image: url(https://art.ngfiles.com/images/1248000/1248273_hyptosis_deiscovering-the-golem.gif?f1587788201);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.loginContainer {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    padding: 40px;
+    width: 90%; 
+    max-width: 400px; 
+    text-align: center;
+    border-radius: 10px; 
+    margin-top: 100px;
+}
+
+.loginContainer form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginContainer button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.loginContainer button:hover {
+    cursor: pointer;
+}
+
+.loginContainer button:active{
+    background-color: #3a813c;
+}
+
+.loginContainer label {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.loginContainer input {
+    padding: 12px 15px; 
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    outline: none;
+}
+
+.loginContainer a {
+    justify-content: left;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.loginContainer a:hover{
+    text-decoration: underline;
+}
+
