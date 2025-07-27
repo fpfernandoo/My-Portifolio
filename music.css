@@ -247,14 +247,14 @@ header {
     margin-left: 20px;
     margin-top: 100px;
     height: auto;
-    width: auto;
+    width: 550px;
     background-color: #1F1F1F;
     border-radius: 20px;
     flex-direction: column;
     color: floralwhite;
     text-align: center;
     display: flex;
-  grid-template-columns: repeat(2, 1fr)
+    margin-bottom: 20px;
 }
 
 .playlist {
@@ -289,7 +289,7 @@ header {
     background-color: #242424;
     padding: 20px;
     margin: 20px; 
-    width: 500px; 
+    width: 465px; 
     height: auto;
     border-radius: 20px;
     display: flex;
